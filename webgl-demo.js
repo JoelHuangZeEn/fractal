@@ -13,10 +13,8 @@ function main() {
         alert(
             "Unable to initialize WebGL. Your browser or machine may not support it."
         );
-        console.log("We're alive but no gl.");
         return;
     }
-    console.log("Got the gl");
 
     // Set clear color to black, fully opaque
     gl.clearColor(0.0, 0.0, 0.0, 1.0);
